@@ -3,42 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Recommendation Website</title>
+    <title>Travel Recommendations</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#contact">Contact Us</a></li>
-            </ul>
-        </nav>
+        <h1>Welcome to Travel Recommendations</h1>
+        <p>Discover your next travel destination based on your preferences.</p>
     </header>
-    <main>
-        <section id="home">
-            <h1>Welcome to our Travel Recommendation Website!</h1>
-            <p>Discover your ideal destination based on your preferences.</p>
-            <button>Get Started</button>
-        </section>
-        <section id="about">
-            <h1>About Us</h1>
-            <p>We are a team of travel enthusiasts dedicated to helping you plan your dream trip.</p>
-            <img src="about-us-image1.jpg" alt="About Us Image 1">
-            <img src="about-us-image2.jpg" alt="About Us Image 2">
-        </section>
-        <section id="contact">
-            <h1>Contact Us</h1>
-            <form>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email">
-                <label for="message">Message:</label>
-                <textarea id="message" name="message"></textarea>
-                <button>Send</button>
-            </form>
-        </section>
-    </main>
-    <script src="script.js"></script>
+    <section>
+        <h2>Beach Recommendations</h2>
+        <div class="flex-container">
+            <figure>
+                <img src="beach1.jpg" alt="Beach 1">
+                <figcaption>Beautiful sunset at Beach in Thailand.</figcaption>
+            </figure>
+            <figure>
+                <img src="beach2.jpg" alt="Beach 2">
+                <figcaption>Crystal clear waters at Bondi Beach.</figcaption>
+            </figure>
+        </div>
+    </section>
+    <section>
+        <h2>Temple Recommendations</h2>
+        <div class="flex-container">
+            <figure>
+                <img src="temple1.jpg" alt="Temple 1">
+                <figcaption>Ancient architecture of Temple in India.</figcaption>
+            </figure>
+            <figure>
+                <img src="temple2.jpg" alt="Temple 2">
+                <figcaption>Serene surroundings of Temple in Vietnam.</figcaption>
+            </figure>
+        </div>
+    </section>
+    <section>
+        <h2>Country Recommendations</h2>
+        <div class="flex-container">
+            <figure>
+                <img src="country1.jpg" alt="Country 1">
+                <figcaption>Vibrant culture of USA.</figcaption>
+            </figure>
+            <figure>
+                <img src="country2.jpg" alt="Country 2">
+                <figcaption>Scenic landscapes of Australia.</figcaption>
+            </figure>
+        </div>
+    </section>
+    <script src="scripts.js"></script>
 </body>
 </html>
